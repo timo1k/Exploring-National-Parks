@@ -20,6 +20,7 @@ import ParkInfo from './ParkInfo.js';
 import HomePage from './HomePage.js';
 import ParkPlan from './ParkPlan.js';
 import NewsPage from './NewsPage.js';
+import MapPage from './MapPage.js';
 import Navbar from './GlobalComponents/Navbar.jsx';
 import {BrowserRouter as Router, Routes,Route} from "react-router-dom";
 import Footer from './GlobalComponents/Footer.jsx';
@@ -36,6 +37,7 @@ root.render(
                 <Route path="/ParkInfo" element={<ParkInfo />} />
                 <Route path="/ParkPlan" element={<ParkPlan />} />
                 <Route path="/NewsPage" element={<NewsPage />} />
+                <Route path="/MapPage" element={<MapPage />} />
             </Routes>
             <Footer></Footer>
         </Router>
