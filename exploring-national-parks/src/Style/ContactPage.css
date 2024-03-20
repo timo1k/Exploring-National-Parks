@@ -1,0 +1,22 @@
+.contact {
+    margin-top: -5.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Optional: to center vertically as well */
+    
+}
+
+
+.contact .custom-fab {
+    width: 200px; /* Adjust as needed */
+    height: 50px; /* Adjust as needed */
+    transform: scale(1.5); /* Adjust scale factor as needed */
+    background-color: rgba(39, 184, 39, 0.861);
+  }
+
+.contact .custom-fab .img{
+   
+    transform: scale(.5); /* Adjust scale factor as needed */
+   
+  }
