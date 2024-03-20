@@ -1,5 +1,7 @@
 {
   "dependencies": {
-    "google-maps-react": "^2.0.6"
+    "google-map-react": "^2.2.1",
+    "google-maps-react": "^2.0.6",
+    "react-twitter-embed": "^4.0.4"
   }
 }
